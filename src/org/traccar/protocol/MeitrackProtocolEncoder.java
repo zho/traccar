@@ -44,6 +44,10 @@ public class MeitrackProtocolEncoder extends StringProtocolEncoder {
                 return formatCommand(command, 'M', "C01,0,12222");
             case Command.TYPE_ENGINE_RESUME:
                 return formatCommand(command, 'M', "C01,0,02222");
+            case Command.TYPE_LOCK_CLOSE:
+                return formatCommand(command, 'M', "C01,0,21222");
+            case Command.TYPE_LOCK_OPEN:
+                return formatCommand(command, 'M', "C01,0,20222");
             case Command.TYPE_ALARM_ARM:
                 return formatCommand(command, 'M', "C01,0,22122");
             case Command.TYPE_ALARM_DISARM:
