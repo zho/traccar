@@ -29,8 +29,8 @@ public class Command extends Message implements Cloneable {
     public static final String TYPE_POSITION_STOP = "positionStop";
     public static final String TYPE_ENGINE_STOP = "engineStop";
     public static final String TYPE_ENGINE_RESUME = "engineResume";
-    public static final String TYPE_LOCK_CLOSE = "lockClose";
-    public static final String TYPE_LOCK_OPEN = "lockOpen";
+    public static final String TYPE_DOORLOCK_OPEN = "doorLockOpen";
+    public static final String TYPE_DOORLOCK_CLOSE = "doorLockClose";
     public static final String TYPE_ALARM_ARM = "alarmArm";
     public static final String TYPE_ALARM_DISARM = "alarmDisarm";
     public static final String TYPE_SET_TIMEZONE = "setTimezone";
